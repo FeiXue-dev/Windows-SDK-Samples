@@ -4,7 +4,7 @@ This repro is used to for beingners to learn windows hook. It contains 4 project
 
 ## Hello World
 The first part is about the project **HelloHooks** installed **WH_MOUSE_LL** hook golablly, you can run the project directly and when you move the mouse you can text printed in this conolse applicaiton like below:
-![Hook Print Result](Screenshots/WindowsHookPrintOut.png "hook installed")
+![Hook Print Result](HelloWorldHook/Screenshots/WindowsHookPrintOut.png "hook installed")
 
 ## Install the golable hook using a separate dll.
 The second part is other 3 projcts, and each project plays different role like below. And the Application and hooks used Pipe to comunicate with each other. So that the applicaion can print the windows affected by hooks.
@@ -19,7 +19,7 @@ Belows are the steps to demo how to use this:
 1. Build MyHook32 project
 1. Run the HelloWorldHook to install the hooks
 1. Run the WindowsProject5, then you should see the output like below:
-![Hook Results](Screenshots/WindowsHookPrintOutwithPipe.png "hook installed")
+![Hook Results](HelloWorldHook/Screenshots/WindowsHookPrintOutwithPipe.png "hook installed")
 
 ## Others
 |Role|Role Description|
